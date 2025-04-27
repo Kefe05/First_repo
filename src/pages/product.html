@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Quicksand&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="logo-holder">
+     <img src="/logo/kingswrld-logos.jpeg" alt="Kingswrld logo" width="50px">
+    </div>
+    <div class="search-bar">
+      <form action="#">
+        <input type="search"
+        name="search-bar"
+        id="search-bar"
+        placeholder="Search"
+        >
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </header>
+  <nav>
+    <ul navbar-holder>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="#">Product</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="range-rover">
+      <h2>Range Rover</h2>
+      <ul id="fade">
+        <li><img src="images/Range-rover/sport.jpg" alt=""></li>
+        <li><img src="images/Range-rover/evoque.jpg" alt=""></li>
+        <li><img src="images/Range-rover/convertible.jpg" alt=""></li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque magnam quos delectus voluptas atque ea, temporibus, necessitatibus repudiandae voluptatum facilis unde veritatis iure ad quaerat, optio consequuntur quibusdam adipisci! Rerum molestiae nobis sequi placeat magni, vel asperiores magnam adipisci doloribus eos illum officia ut rem. Dignissimos aliquid culpa numquam itaque!</p>
+
+    </section>
+    <section class="benz">
+      <h2>Benz</h2>
+      <ul id="benz">
+        <li><img src="images/benz/amg.jpg" alt=""></li>
+        <li><img src="images/benz/e-class.jpg" alt=""></li>
+        <li><img src="images/benz/g-wagon.jpg" alt=""></li>
+      </ul>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur temporibus placeat quis repellat, iste fugit illo cumque incidunt provident aperiam dolorem vel neque voluptate dicta quidem aliquid libero minima qui! Provident incidunt repellat error officia deleniti nostrum voluptates totam libero, perferendis vel, id quae magni inventore asperiores. Ratione, odit iste.</p>
+    </section>
+    <section class="bmw">
+      <h2>BWM</h2>
+      <ul id="bmw">
+        <li><img src="images/bmw/coupe.jpg" alt=""></li>
+        <li><img src="images/bmw/three-series.jpg" alt=""></li>
+        <li><img src="images/bmw/seven-series.jpg" alt=""></li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nulla sapiente aliquam ipsum id error culpa laudantium maiores obcaecati, dolorum quaerat veritatis, eius totam! Laudantium eaque mollitia facilis quibusdam dolores! Quia obcaecati ut voluptatum, ad ipsum delectus porro eveniet quaerat aliquam modi veniam dolorem animi totam, exercitationem doloremque, suscipit dicta?</p>
+    </section>
+  </main>
+  <div class="footer-widget">
+    <div class="address">
+      <h4>Address</h4>
+    <address>
+      Lorem ipsum, dolor sit amet consectetur adipisicing.
+    </address>
+  </div>
+    <div class="footer-widget-content">
+      <h4>Contact us</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Linkedin</a></li>
+      </ul>
+    </div>
+    <div class="footer-widget-content">
+      <h4>Contact us</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Linkedin</a></li>
+      </ul>
+    </div>
+    <div class="footer-widget-content">
+      <h4>Contact us</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Linkedin</a></li>
+      </ul>
+    </div>
+  </div>
+  <footer>Copyright &copy; 2025</footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+  <script>
+         $(document).ready(function() {
+ 
+            $('#fade').lightSlider({
+
+              minSlide:1,
+
+              maxSlide:1,
+
+              mode:'fade'
+
+            });  
+
+            });
+  </script>
+  <script>
+    $(document).ready(function() {
+ 
+      $('#benz').lightSlider({
+
+        minSlide:1,
+
+        maxSlide:1,
+
+        mode:'fade'
+
+      });  
+
+      });
+  </script>
+  <script>
+    $(document).ready(function() {
+ 
+      $('#bmw').lightSlider({
+
+        minSlide:1,
+
+        maxSlide:1,
+
+        mode:'fade'
+
+      });  
+
+      });
+  </script>
+</body>
+</html>

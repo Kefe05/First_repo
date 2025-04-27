@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Quicksand&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="logo-holder">
+     <img src="/logo/kingswrld-logos.jpeg" alt="Kingswrld logo" width="50px">
+    </div>
+    <div class="search-bar">
+      <form action="#">
+        <input type="search"
+        name="search-bar"
+        id="search-bar"
+        placeholder="Search"
+        >
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </header>
+  <nav>
+    <ul navbar-holder>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section  class="how">
+      <h2>How we started</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione error architecto nihil pariatur dolor necessitatibus est dolorem quidem, nobis sunt, nam inventore magnam ad ex commodi. Sed cum eius, cupiditate perferendis harum expedita error temporibus alias ipsa totam autem in voluptates labore quisquam quod odio itaque quas modi ex.</p>
+    </section>
+    <section class="where">
+      <h2>Where we are going</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam culpa, facere doloremque tenetur fuga sunt necessitatibus vero, omnis ipsum harum earum vel cumque iusto quos natus, nemo voluptatem distinctio rerum at architecto. Voluptates blanditiis quasi ducimus dolores, nisi temporibus ipsam mollitia neque tempora excepturi vel saepe. Eos dolorum aut ratione.</p>
+    </section>
+    <section class="begin">
+      <h2>How we began</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nesciunt nihil nobis minus perferendis, optio accusantium ipsum quia corrupti repudiandae, maxime quidem error? Obcaecati repudiandae dolor consequatur dicta nesciunt incidunt impedit in doloribus sapiente ut, est fugiat blanditiis facere. Odio sed quod praesentium accusantium suscipit fuga ullam incidunt necessitatibus ipsam!</p>
+    </section>
+  </main>
+  <div class="footer-widget">
+    <div class="address">
+      <h4>Address</h4>
+    <address>
+      Lorem ipsum, dolor sit amet consectetur adipisicing.
+    </address>
+  </div>
+    <div class="footer-widget-content">
+      <h4>Contact us</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Linkedin</a></li>
+      </ul>
+    </div>
+    <div class="footer-widget-content">
+      <h4>Contact us</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Linkedin</a></li>
+      </ul>
+    </div>
+    <div class="footer-widget-content">
+      <h4>Contact us</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Linkedin</a></li>
+      </ul>
+    </div>
+  </div>
+  <footer>Copyright &copy; 2025</footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+  <script>
+          $(document).ready(function() {
+        $('#autoWidth').lightSlider({
+            autoWidth:true,
+            loop:true,
+            onSliderLoad: function() {
+                $('#autoWidth').removeClass('cS-hidden');
+            } 
+        });  
+      });
+  </script>
+</body>
+</html>
